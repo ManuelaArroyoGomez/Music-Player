@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <p>Playing now</p>
+        </header>
+        <main>
+            <section class="cards">
+                <div>
+                    <img src="./assets/img/album-2.png" alt="">
+                    <p>My Happy Ending</p>
+                </div>
+                <div>
+                    <img src="./assets/img/album-1.png" alt="">
+                    <p>Complicated</p>
+                </div>
+                <div>
+                    <img src="./assets/img/album-2.png" alt="">
+                    <p>Nobody's Home</p>
+                </div>
+            </section>
+            <section class="progress-bar">
+                <div class="start">0:00</div>
+                <progress id="progress" value="0" max="100"></progress>
+                <div class="end">0:00</div>
+            </section>
+        </main>
+        <footer>
+            <section class="buttons">
+                <div class="bucle">
+                    <img src="./assets/icons/bucle.svg" alt="Bucle" />
+                  </div>
+                  <div class="previous">
+                    <img src="./assets/icons/previous.svg" alt="Previous" />
+                  </div>
+                  <div class="play-pause">
+                    <input type="checkbox" id="playpause">
+                    <label for="playpause">
+                        <img class="pause" src="/assets/icons/pause.svg" alt="Pause">
+                        <img class="play" src="/assets/icons/play.svg" alt="Play">
+                    </label>
+                  </div>
+                  <div class="next">
+                    <img src="./assets/icons/next.svg" alt="Next" />
+                  </div>
+                  <div class="shift">
+                    <img src="./assets/icons/shift.svg" alt="Shift"/>
+                  </div>
+            </section>
+        </footer>
+    </div>
+</body>
+</html>
